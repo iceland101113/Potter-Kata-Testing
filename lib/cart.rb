@@ -18,6 +18,10 @@ class Cart
         elsif @ordered_items.size == 3
 
           total = total + 3 * PRICE * 0.9
+
+        elsif @ordered_items.size == 4
+
+          total = total + 4 * PRICE * 0.85
                             
         else
           # 把書拿出來計算
